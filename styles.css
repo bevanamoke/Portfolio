@@ -48,10 +48,85 @@ button {
     border: none;
     background-color: black;
     color: white;
+    transition: transform 0.5s ease-in-out;
 }
 
 button:hover {
-    background-color: #4C2C69
-    ;
+    background-color: #4C2C69;
+    transform: scale(1.2) translate(20px);
+    
+    
 }
 
+.img img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.img img:hover {
+    cursor: pointer;
+    transform: scale(1.03) ;
+
+}
+
+.sec2 {
+    display: flex;
+    
+    align-items: center;
+    padding: 90px 0;
+   
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #252525;
+    border-radius: 70px;
+    margin-left: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.languages:hover {
+    background-color: #4C2C69;
+    transform: scale(1.02);
+}
+
+.imgs img {
+    width: 90px;
+    margin: 40px 100px;
+}
+
+.header h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 80px;
+    transform: translate(70px);
+
+}
+
+footer {
+    height: 120px;
+    background-color: #4C2C69;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    
+
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+footer h2{
+    padding: 10px 60px 0;
+}
+
+footer ul li a img{
+    
+    width: 30px;
+    margin: 0 20px;
+
+}
